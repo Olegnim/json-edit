@@ -1,0 +1,11 @@
+<div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Введите данные</span>
+    </div>
+    <textarea [(ngModel)] = "DataForm.text" id="GetText" class="form-control" aria-label="With textarea" rows="10"></textarea>
+    <div class="input-group-append">
+        <button (click)="GetDataForm()" class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04" title="Нажми меня" routerLink="/show-data">
+            Продолжить
+        </button>
+    </div>
+</div>
